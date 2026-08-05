@@ -1,5 +1,12 @@
+import "../css/Contato.css";
+
 function Contato() {
-    return <div>Contato</div>;
-  }
-  
-  export default Contato;
+  return (
+    <section id="contato">
+      <h2>Contato</h2>
+      
+    </section>
+  );
+}
+
+export default Contato;

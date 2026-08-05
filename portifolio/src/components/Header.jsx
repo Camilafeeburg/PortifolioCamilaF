@@ -1,27 +1,23 @@
 import "../css/Header.css";
 
 export default function Header() {
-    return(
-        <header className="header">
+  return (
+    <header className="header">
+      <h1 className="logo">
+        <span></span>
+      </h1>
 
-            <h1 className="logo">
-                Camila<span>.</span>
-            </h1>
+      <nav className="navbar">
+        <a href="#home">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
 
-            <nav>
-
-                <a href="#home">Home</a>
-                <a href="#about">Sobre</a>
-                <a href="#skills">Habilidades</a>
-                <a href="#projects">Projetos</a>
-                <a href="#contact">Contato</a>
-
-            </nav>
-
-            <button>
-                Fale comigo
-            </button>
-
-        </header>
-    )
+      <button className="btn-contato">
+        Fale comigo
+      </button>
+    </header>
+  );
 }

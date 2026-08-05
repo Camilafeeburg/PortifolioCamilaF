@@ -1,18 +1,19 @@
 import "./css/App.css";
-import "./css/Home.css";
-import "./css/Header.css";
-import "./css/Footer.css";
-import Header from "./components/Header";
-import Home from "./components/Home";
 
-import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Sobre from "./components/Sobre";
+import Projetos from "./components/Projetos";
 import Contato from "./components/Contato";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
     <>
       <Header />
-      <Home />
+      <Hero />
+      <Sobre />
+      <Projetos />
       <Contato />
       <Footer />
     </>
