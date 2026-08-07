@@ -26,10 +26,8 @@
     align-items:center;
     padding:120px 10%;
     color:white;
-    background:
-    radial-gradient(circle at 15% 20%, #ec489950, transparent 30%),
-    radial-gradient(circle at 85% 80%, #ec489950, transparent 35%),
-    #311e2a;
+    background: #18111F;
+background: linear-gradient(180deg, rgba(24, 17, 31, 1) 0%, rgba(71, 44, 61, 1) 100%);
 
 }
 :root{

@@ -1,0 +1,116 @@
+.habilidades{
+ 
+    min-height:100vh;
+ 
+    padding:120px 10%;
+ 
+    background:#18111f;
+ 
+    color:white;
+ 
+}
+ 
+ 
+.titulo-section{
+ 
+    text-align:center;
+ 
+    margin-bottom:60px;
+ 
+}
+ 
+ 
+.titulo-section span{
+ 
+    color:#ec4899;
+ 
+    font-size:18px;
+ 
+}
+ 
+ 
+.titulo-section h2{
+ 
+    font-size:50px;
+ 
+    margin-top:10px;
+ 
+}
+ 
+ 
+.habilidades-grid{
+ 
+ 
+    display:grid;
+ 
+    grid-template-columns:
+    repeat(auto-fit,minmax(180px,1fr));
+ 
+ 
+    gap:30px;
+ 
+}
+ 
+ 
+.habilidade-card{
+ 
+ 
+    background:#241b2f;
+ 
+ 
+    padding:40px 20px;
+ 
+ 
+    border-radius:20px;
+ 
+ 
+    text-align:center;
+ 
+ 
+    border:1px solid rgba(236,72,153,.15);
+ 
+ 
+    transition:.3s;
+ 
+ 
+}
+ 
+ 
+.habilidade-card:hover{
+ 
+ 
+    transform:translateY(-10px);
+ 
+ 
+    background:#2d203b;
+ 
+ 
+    border-color:#ec4899;
+ 
+ 
+    box-shadow:
+    0 10px 30px rgba(236,72,153,.2);
+ 
+ 
+}
+ 
+ 
+.icone{
+ 
+ 
+    font-size:50px;
+ 
+ 
+    color:#ec4899;
+ 
+ 
+    margin-bottom:20px;
+ 
+ 
+}
+.habilidade-card h3{
+    font-size:20px;
+    color:#f8fafc;
+ 
+ 
+}

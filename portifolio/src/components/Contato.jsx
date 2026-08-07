@@ -1,12 +1,40 @@
 import "../css/Contato.css";
 
-function Contato() {
+export default function Contato() {
   return (
-    <section id="contato">
-      <h2>Contato</h2>
+    <section className="contato" id="contato">
+      <div className="titulo-section">
+        <span>CONTATO</span>
       
+      </div>
+
+      <div className="contato-card">
+
+        <div className="contato-info">
+          <p>📧 camiladealencarfeeburg@gmail.com</p>
+          <p>📱 (51) 99999-9999</p>
+          <p>📍 Porto Alegre - RS</p>
+        </div>
+
+        <div className="contato-links">
+          <a
+            href="https://github.com/Camilafeeburg"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://linkedin.com/in/seuusuario"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
+        </div>
+
+      </div>
     </section>
   );
 }
-
-export default Contato;
