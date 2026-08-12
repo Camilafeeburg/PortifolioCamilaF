@@ -49,6 +49,61 @@ background: linear-gradient(180deg, rgba(24, 17, 31, 1) 0%, rgba(71, 44, 61, 1) 
         #cf66c1,
         #e148bd
     );
-    margin-top: 100px;
+    
 
+}
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 25px;
+}
+
+.hero-buttons div {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-buttons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+
+
+
+.btn1 {
+    background: #ec4899;
+    color: white;
+}
+
+.btn1:hover {
+    background: #db2777;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(236, 72, 153, 0.3);
+}
+
+
+/* CONTATO */
+
+.btn2 {
+    background: transparent;
+    color: white;
+
+    border: 2px solid #ec4899;
+}
+
+.btn2:hover {
+    background: #ec4899;
+    color: white;
+
+    transform: translateY(-3px);
 }

@@ -1,76 +1,83 @@
-.header{
-    width:100%;
-    height:80px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:0 10%;
-    position:fixed;
-    top:0;
-    left:0;
-    background:rgb(255, 255, 255);
-    box-shadow:0 3px 12px rgba(0,0,0,.08);
-    z-index:1000;
+.header {
+    width: 100%;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 8%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background: #16111f;
+
+    border-bottom: 1px solid #302238;
+
+    z-index: 1000;
 }
 
-.logo{
+/* LOGO */
 
-    font-size:2rem;
-
-    font-weight:bold;
-
-    color:#222;
-
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
 }
 
-.logo span{
-
-    color:#ec4899;
-
+.logo span {
+    color: #ec4899;
 }
 
-.navbar{
 
-    display:flex;
+/* MENU */
 
-    gap:35px;
-
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
-.navbar a{
+.navbar a {
+    color: #d6d0dc;
 
-    color:#444;
+    text-decoration: none;
 
-    font-weight:500;
+    font-size: 17px;
+    font-weight: 500;
 
-    transition:.3s;
-
+    transition: 0.3s;
 }
 
-.navbar a:hover{
-
-    color:#ec4899;
-
+.navbar a:hover {
+    color: #ec4899;
 }
 
-.btn-header{
 
-    background:#ec4899;
+/* BOTÃO */
 
-    color:white;
+.btn-header {
+    text-decoration: none;
 
-    padding:12px 25px;
+    background: #ec4899;
+    color: white;
 
-    border-radius:30px;
+    padding: 12px 24px;
 
-    transition:.3s;
+    border-radius: 25px;
 
-    font-weight:bold;
+    font-size: 15px;
+    font-weight: 600;
 
+    transition: 0.3s;
 }
 
-.btn-header:hover{
+.btn-header:hover {
+    background: #db2777;
 
-    background:#db2777;
+    transform: translateY(-2px);
 
+    box-shadow: 0 8px 20px rgba(236, 72, 153, 0.3);
 }

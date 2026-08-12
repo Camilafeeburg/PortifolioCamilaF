@@ -16,9 +16,8 @@ export default function Hero() {
         <h2>Desenvolvedora Front-end</h2>
 
         <p>
-          Sou estudante de Desenvolvimento de Sistemas e apaixonada
-          por criar interfaces modernas, responsivas e intuitivas
-          utilizando HTML, CSS, JavaScript e React.
+        Sou estudante de Desenvolvimento de Sistemas, com interesse em tecnologia e desenvolvimento web.
+         Busco transformar ideias em projetos modernos, funcionais e criativos.
         </p>
 
         <div className="hero-buttons">
