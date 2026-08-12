@@ -26,7 +26,7 @@ export default function Contato() {
           </a>
 
           <a
-            href="https://linkedin.com/in/seuusuario"
+            href="https://www.linkedin.com/in/camila-de-alencar-feeburg-35389837b/"
             target="_blank"
             rel="noreferrer"
           >
