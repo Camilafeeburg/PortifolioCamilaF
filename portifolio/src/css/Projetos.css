@@ -1,6 +1,6 @@
 .projetos {
     background: #16111f;
-    padding: 110px 8%;
+    padding: 60px 8%;
     color: white;
 }
 
@@ -23,15 +23,15 @@
 
 .projetos-grid {
     display: grid;
-    grid-template-columns: repeat(3, 320px);
+    grid-template-columns: repeat(2, 350px);
     justify-content: center;
-    gap: 30px;
+    gap: 170px;
 }
 
 .projeto-card {
-    width: 320px;
+    width: 400px;
     background: #241a32;
-    border-radius: 25px;
+    border-radius: 10px;
     overflow: hidden;
     border: 1px solid #3b234b;
     transition: .35s ease;

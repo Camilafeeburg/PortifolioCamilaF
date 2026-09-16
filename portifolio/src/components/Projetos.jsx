@@ -1,7 +1,7 @@
 import "../css/Projetos.css";
 import ecoletaImg from "../assets/ecoleta.png";
 import catalogoImg from "../assets/catalogo.png";
-import imaImg from "../assets/ecoleta.png";
+
 
 export default function Projetos() {
 
@@ -26,15 +26,7 @@ export default function Projetos() {
     
     },
 
-    {
-      titulo: "Lorem Ipsum",
-      img: imaImg,
-      descricao:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      tecnologias: "Lorem • Ipsum • Dolor",
-      github: "#",
-      demo: "#",
-    },
+   ,
   ];
 
   return (

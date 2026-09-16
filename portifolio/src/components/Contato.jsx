@@ -12,7 +12,7 @@ export default function Contato() {
 
         <div className="contato-info">
           <p> camiladealencarfeeburg@gmail.com</p>
-          <p> (51) 99999-9999</p>
+          <p> (51) 99294-6645</p>
           <p>📍 Porto Alegre - RS</p>
         </div>
 
