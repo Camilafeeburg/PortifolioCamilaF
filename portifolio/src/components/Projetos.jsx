@@ -1,10 +1,14 @@
 import "../css/Projetos.css";
+import ecoletaImg from "../assets/ecoleta.png";
+import catalogoImg from "../assets/catalogo.png";
+import imaImg from "../assets/ecoleta.png";
 
 export default function Projetos() {
 
   const projetos = [
     {
-      titulo: "Écoleta",
+      titulo: "Écoleta", 
+      img: ecoletaImg,
       descricao:
         "Aplicativo para incentivar a coleta seletiva em Porto Alegre, permitindo consultar dias de coleta, localizar ecopontos, acompanhar o caminhão de lixo e receber recompensas pelo descarte correto.",
       tecnologias: "React Native • Firebase • Figma",
@@ -13,16 +17,18 @@ export default function Projetos() {
     },
 
     {
-      titulo: "Lorem Ipsum",
+      titulo: "Catálogo Digital de Livros",
+      img: catalogoImg,
       descricao:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      tecnologias: "Lorem • Ipsum • Dolor",
-      github: "#",
-      demo: "#",
+        "Sistema para organização e visualização de livros utilizando banco de dados e interface intuitiva.",
+      tecnologias: "React • MySQL • PHP",
+      github: "https://github.com/Camilafeeburg/catalogo-digital-livros",
+    
     },
 
     {
       titulo: "Lorem Ipsum",
+      img: imaImg,
       descricao:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       tecnologias: "Lorem • Ipsum • Dolor",
@@ -45,6 +51,7 @@ export default function Projetos() {
           <div className="projeto-card" key={index}>
 
           <div className="projeto-img">
+          <img src={projeto.img} alt={projeto.titulo} />
           </div>
 
             <div className="projeto-info">
